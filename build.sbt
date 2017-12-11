@@ -1,6 +1,6 @@
 name := """qbu"""
 
-version := "1.0.2"
+version := "1.0.4"
 
 lazy val root = (project in file(".")).enablePlugins(PlayJava)
 

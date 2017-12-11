@@ -1,0 +1,78 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body {	
+	background-image: url("assets/DESKTOP_BG.jpg"); 
+	}
+	
+#content {
+	margin: auto;
+	width: 50%;
+	font-family: bebasneue;
+	text-align: center;
+	}
+	
+#logobox {max-width: 250px;
+margin:auto;}	
+	
+#logogif {
+	width: 100%;
+	height: auto;
+	text-align:center;
+	margin-top: 15px;}
+
+
+#mc_embed_signup {
+	font:30px bebasneue;
+	color: white; 
+	text-align:center;
+	padding-top: 20px;
+	padding-bottom: 40px;
+	line-height: 1;
+	}
+	
+#mce-FNAME {text-align:center;}
+#mce-EMAIL {text-align:center;
+			margin-top: 20px;}
+	
+#mc-embedded-subscribe {
+	width: 115px;
+	margin-top: 20px;
+	background-color: transparent !important;
+	border: solid 1px !important;
+    color: white !important;
+    padding: 5px 5px !important;
+    text-align: center !important;
+    text-decoration: none !important;
+    display: inline-block !important;
+    font-size: 20px !important;
+	font-family: bebasneue !important;
+	letter-spacing: 1px;
+}
+
+#mc-embedded-subscribe:hover {
+	margin-top: 20px;
+	background-color: white !important;
+	border: solid 1px !important;
+    color: black !important;
+    padding: 5px 5px !important;
+    text-align: center !important;
+    text-decoration: none !important;
+    display: inline-block !important;
+    font-size: 20px !important;
+	font-family: bebasneue !important;
+	letter-spacing: 1px;
+}
+
+#contactemail a:link {
+	font: 14px bebasneue;
+	color: white;
+	text-decoration: none;
+	letter-spacing: 1.5px;
+	text-align:center;
+	}
+	
+@font-face {
+	font-family: bebasneue;
+	src: url(fonts/bebasneue_regular-webfont.woff);
+	}
