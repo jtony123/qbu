@@ -1,0 +1,44 @@
+
+
+@main(title = "QBU") {
+
+<style>
+
+#holder
+{
+	
+	width:100%;
+	height:100%;
+}
+#holder img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+</style>
+
+<div>
+<div id="logobox">
+<img id="logogif" src="@routes.Assets.versioned("images/QBUTITLE.gif")" alt="Queen Bitch of the Universe" height="250" width="250">
+</div>
+
+
+ <div id="holder">
+ 
+<img src="@routes.Assets.versioned("images/PressRelease_3_NoLogo.jpg")" alt="Press Release Doc" width="60%">
+</div>
+<!--End mc_embed_signup-->
+<form method="get" action='@routes.HomeController.downloadFile()'>
+   <button style="display: block; margin: 10px auto; font-size: 20px;" type="submit">Download PDF</button>
+</form>
+
+</div>
+
+</div>
+
+
+
+
+
+
+}

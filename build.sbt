@@ -1,6 +1,6 @@
 name := """qbu"""
 
-version := "1.0.5"
+version := "1.0.10"
 
 lazy val root = (project in file(".")).enablePlugins(PlayJava)
 
@@ -12,4 +12,7 @@ libraryDependencies ++= Seq(
   javaWs,
   "com.typesafe.play" %% "play-mailer" % "5.0.0-M1"
 )
+
+import com.typesafe.sbt.packager.MappingsHelper._
+    mappings in Universal ++= directory(baseDirectory.value / "data")
 

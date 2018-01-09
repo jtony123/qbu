@@ -76,3 +76,9 @@ margin:auto;}
 	font-family: bebasneue;
 	src: url(fonts/bebasneue_regular-webfont.woff);
 	}
+	
+input {
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+	}

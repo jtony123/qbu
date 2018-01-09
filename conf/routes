@@ -4,6 +4,9 @@
 
 # An example controller showing a sample home page
 GET     /                           controllers.HomeController.index
+GET     /pressRelease               controllers.HomeController.pressRelease
+GET		/downloadFile				controllers.HomeController.downloadFile()
+
 
 POST	/send						controllers.MailController.sendEmail()
 
